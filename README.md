@@ -21,7 +21,7 @@ Abra seu terminal ***PowerShell*** no modo de *Administrador* e copie o seguinte
 
   
 
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
 
   
 
@@ -35,7 +35,7 @@ Após a instalação, reinicie seu terminal, o fechando e abrindo novamente na p
 
   
 
-composer global require laravel/installer
+    composer global require laravel/installer
 
 ***
 
@@ -43,7 +43,7 @@ composer global require laravel/installer
 
   
 
-Laravel new exemplo-app
+    Laravel new exemplo-app
 
   
 
@@ -57,11 +57,11 @@ Depois que o aplicativo for criado, você pode iniciar o servidor de desenvolvim
 
   
 
-cd exemplo-app
-
-npm install && npm run build
-
-composer run dev
+    cd exemplo-app
+    
+    npm install && npm run build
+    
+    composer run dev
 
 ***
 
@@ -121,3 +121,4 @@ Pressionar **Ctrl** e selecionar o link para abrir o projeto no navegador, http:
 Para acessar a galeria de comandos do terminal, utilize:
 
 Eu real não lembro o comando, pesquisei e não achei, mas queria coloca pq é interessante 😔
+
