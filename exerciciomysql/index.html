@@ -7,14 +7,11 @@
 </head>
 <body>
     <h2>Coloque seus dados</h2>
-    <form action="salvar.php" method="POST">
-        Informe seu nome:
-        <input type="text" id="name" required><br><br>
-        Informe sua idade:
-        <input type="number" name="idade" required><br><br>
-        Informe seu CPF:
-        <input type="text" name="cpf" required><br><br> 
-        <input type="submit" value="Enviar">
+    <form action="salvar.php" method="post">
+        Nome: <input type="text" name="nome"><br><br>
+        Idade: <input type="number" name="idade"><br><br>
+        CPF: <input type="text" name="cpf"><br><br>
+        <input type="submit" value="Salvar">
     </form>
 
     <br><a href="listar.php">Ver Cadastros</a>
