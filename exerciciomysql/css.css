@@ -1,35 +1,44 @@
 body{
-    font-size: 20px;
-    background-color:aliceblue ;
-    font-family: "Urbanist",
-        sans-serif;
+    background-color:rgb(255, 219, 240);
 }
 
-h2{
+/* classe para estilizar os botões*/
+.botao{
+    background-color:rgb(231, 180, 255);
+    border: 2px solid rgb(88, 41, 116);
+    border-radius: 15%;
+    padding: 0.4%;
+    margin: 1%;
+    margin: 0.5%;
+    font-size:xx-large;
+}
+
+.botao:hover{
+    background-color:rgb(156, 50, 151) ;
+    transition-duration: 1s;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo{
     text-align: center;
+    margin-top: 3%;
 }
 
-container{
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+.container{
+    margin: auto;
+    margin-top: 13%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(137, 0, 250);
+    width: max-content;
+    height: 350px;
+    padding:3%;
+    border:2px solid rgb(73, 32, 92);
+    border-radius:30px;
 }
-input[type="submit"] {
-    background-color: #2d2e5f; /* Cor de fundo */
-    color: rgb(204, 211, 255); /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno */
-    border: none; /* Remover a borda padrão */
-    border-radius: 100px; /* Bordas arredondadas */
-    cursor: pointer; /* Cursor de ponteiro */
-    font-size: 16px; /* Tamanho da fonte */
-    transition: background-color 0.3s ease; /* Transição suave */
-  }
-  
-  input[type="submit"]:hover {
-    background-color: rgb(204, 211, 255); /* Cor de fundo no hover */
-    color: #2d2e5f;
-  }
 
-  .form{
-    background-color: blue;
-  }

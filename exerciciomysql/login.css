@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(255, 219, 240);
+}
+
+.painel{
+    background-color:gainsboro;
+    width: max-content;
+    height:max-content;
+    padding:2%;
+    border:2px solid black;
+    border-radius:30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+.nome {
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: border 0.5s, box-shadow 0.5s;
+    outline: none;
+}
+
+.nome:focus {
+    border: 1px solid rgb(119, 127, 233);
+    box-shadow: 0 0 4px rgb(119, 127, 233);
+}
+
+.botao{
+    border:1px solid black;
+    border-radius:30px;
+    background-color:rgb(170, 28, 28) ;
+    color:white;
+}
+
+.botao:hover{
+    background-color: rgb(129, 25, 25);
+    box-shadow:0 0 4px rgb(129, 25, 25)
+}
